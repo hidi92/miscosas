@@ -6,13 +6,20 @@ def menu():
     salir = False
     while salir == False:
 
-        print ("""Escribe una opcion para seleccionar ejercicio
+        print ("""
+               Escribe una opcion para seleccionar ejercicio
                0.Salir
                1.Ejercicio numero mayor
                2.Ejercicio contar caracteres
                3.Ejercicio contar vocales
                4.Ejercicio sumar y multiplicar
-               5.Ejercicio Numeros palindromos""")
+               5.Ejercicio Numeros palindromos
+               6.Ejercicio mostrar mes
+               7.Ejercicio tabla multiplicar
+               8.Ejercicio ordenar numeros
+               9.Ejercicio agenda
+               10.Ejercicio comparar listas
+               """)
         menuopc = input("Introduce una opcion")
 
         if menuopc == "0":
@@ -42,6 +49,31 @@ def menu():
         if menuopc == "5":
             print ("Has seleccionado el Ejercicio 5, empezemos:")
             import ejercicio5
+            limpiar()
+            continue
+        if menuopc == "6":
+            print ("Has seleccionado el Ejercicio 6, empezemos:")
+            import ejercicio6
+            limpiar()
+            continue
+        if menuopc == "7":
+            print ("Has seleccionado el Ejercicio 7, empezemos:")
+            import ejercicio7
+            limpiar()
+            continue
+        if menuopc == "8":
+            print ("Has seleccionado el Ejercicio 8, empezemos:")
+            import ejercicio8
+            limpiar()
+            continue
+        if menuopc == "9":
+            print ("Has seleccionado el Ejercicio 9, empezemos:")
+            import ejercicio9
+            limpiar()
+            continue
+        if menuopc == "10":
+            print ("Has seleccionado el Ejercicio 10, empezemos:")
+            import ejercicio10
             limpiar()
             continue
         else:

@@ -19,6 +19,9 @@ def menu():
                8.Ejercicio ordenar numeros
                9.Ejercicio agenda
                10.Ejercicio comparar listas
+               11.Ejercicio multiplicar caracter
+               12.Ejercicio lista de asteriscos
+               13.Ejercicio suma de asteriscos
                """)
         menuopc = input("Introduce una opcion")
 
@@ -74,6 +77,21 @@ def menu():
         if menuopc == "10":
             print ("Has seleccionado el Ejercicio 10, empezemos:")
             import ejercicio10
+            limpiar()
+            continue
+        if menuopc == "11":
+            print ("Has seleccionado el Ejercicio 11, empezemos:")
+            import ejercicio11
+            limpiar()
+            continue
+        if menuopc == "12":
+            print ("Has seleccionado el Ejercicio 12, empezemos:")
+            import ejercicio12
+            limpiar()
+            continue
+        if menuopc == "13":
+            print ("Has seleccionado el Ejercicio 13, empezemos:")
+            import ejercicio13
             limpiar()
             continue
         else:
